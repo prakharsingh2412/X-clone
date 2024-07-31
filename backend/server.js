@@ -10,7 +10,7 @@ import userRoutes from "./routes/user.route.js";
 import postRoutes from "./routes/post.route.js"
 import notificationRoutes from "./routes/notification.route.js"
 
-dotenv.config({path:"../../X clone/.env"});
+dotenv.config();
 
 cloudinary.config({
     cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
